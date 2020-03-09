@@ -23,6 +23,16 @@ return [element,...array]
  function addElementToEndOfArray(array,element){
    return [...array,element]
  }
+<<<<<<< HEAD
+=======
+ //
+ function destructivelyAddElementToEndOfArray(array,element){
+   array.push(element)
+   return array
+ }
+ 
+ //
+>>>>>>> cebbbe2ef0b4e2c9791573ea9199c99121eaafdd
  //
  function destructivelyAddElementToEndOfArray(array,element){
    array.push(element)
